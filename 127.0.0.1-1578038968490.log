@@ -1,0 +1,18 @@
+var list = document.querySelector('#example-container ul');
+undefined
+var items = document.querySelectorAll('#example-container li');
+undefined
+console.log(items.length);
+VM4181:1 6
+undefined
+var newItem = document.createElement('LI');
+undefined
+newItem.className = 'feature';
+"feature"
+newItem.innerText = 'new live feature';
+"new live feature"
+list.appendChild(newItem);
+<li class=​"feature">​new live feature​</li>​
+console.log(items.length);
+VM4379:1 6
+undefined

@@ -1,0 +1,18 @@
+items = document.querySelectorAll('#example-container li');
+NodeList(6) [li.feature, li.feature, li.feature, li.feature, li.feature, li.feature]
+items.toString();
+"[object NodeList]"
+for(var i=0; i < items.length; i++){
+}
+undefined
+for(var i=0; i < items.length; i++){
+    console.log(items[i].innerText);
+}
+
+VM2739:2 Luxurious sized master suite
+VM2739:2 Oversized walk-in closet
+VM2739:2 Frameless Beech cabinetry with concealed hinges
+VM2739:2 Elegant slab white quartz countertops with large backsplash
+VM2739:2 Dual china sinks with Moen faucets
+VM2739:2 Clear frameless shower enclosures
+undefined

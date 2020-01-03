@@ -1,0 +1,14 @@
+var forEach = Array.prototype.forEach;
+undefined
+var items = document.querySelectorAll('#example-container li');
+undefined
+forEach.call(items,function(item){
+    console.log(item.innerText);
+});
+VM3170:2 Luxurious sized master suite
+VM3170:2 Oversized walk-in closet
+VM3170:2 Frameless Beech cabinetry with concealed hinges
+VM3170:2 Elegant slab white quartz countertops with large backsplash
+VM3170:2 Dual china sinks with Moen faucets
+VM3170:2 Clear frameless shower enclosures
+undefined
